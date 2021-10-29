@@ -68,15 +68,27 @@ p {
 /*header section styles*/
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
+}
+.logo{
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.links a{
+    text-decoration: none;
+    color:black;
 }
 /* top image section */
 .top-image{
     display: flex;
-    justify-content: center;
-    height: 40vh;
-    background-image: url('../img/jumbo.jpg');
+    justify-content: space-evenly;
 }
+
 /* middle section styles */
 .container {
     width: 800px;
@@ -113,12 +125,42 @@ nav{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background:teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.one{
+    background-color: teal;
+}
+.two{
+    background-color: gold;
+}
+.three{
+    background-color: cadetblue;
+}
+.four{
+    background-color: coral;
+}
+.five{
+    background-color: crimson;
+}
+.six{
+    background-color: forestgreen;
+}
+.seven{
+    background-color: darkorchid;
+}
+.eight{
+    background-color: hotpink;
+}
+.nine{
+    background-color: indigo;
+}
+.ten{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -134,7 +176,7 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/* footer */
 footer {
     width: 100%;
     background: black;
