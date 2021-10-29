@@ -116,7 +116,7 @@ nav{
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.middle-content .boxes{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -132,35 +132,36 @@ nav{
     align-items: center;
     justify-content: center;
 }
+/* box colors */
 .one{
-    background-color: teal;
+    background-color:teal;
 }
 .two{
-    background-color: gold;
+    background-color:gold;
 }
 .three{
-    background-color: cadetblue;
+    background-color:cadetblue;
 }
 .four{
-    background-color: coral;
+    background-color:coral;
 }
 .five{
-    background-color: crimson;
+    background-color:crimson;
 }
 .six{
-    background-color: forestgreen;
+    background-color:forestgreen;
 }
 .seven{
-    background-color: darkorchid;
+    background-color:darkorchid;
 }
 .eight{
-    background-color: hotpink;
+    background-color:hotpink;
 }
 .nine{
-    background-color: indigo;
+    background-color:indigo;
 }
 .ten{
-    background-color: dodgerblue;
+    background-color:dodgerblue;
 }
 
 .bottom-content {
