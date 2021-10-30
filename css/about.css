@@ -81,6 +81,7 @@ nav{
 .top-image{
     display: flex;
     justify-content: space-evenly;
+    margin: 0 2% 20px;
 }
 /* about section styles */
 .container {
@@ -95,9 +96,29 @@ nav{
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+}
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+}
+.info{
+
+    text-align: center;
+    flex-direction: column;
 }
 button{
     background-color: white;
@@ -107,7 +128,28 @@ button{
 }
 .button a{
     text-decoration: none;
-    color: inherit;
+    color: inherit;  
+}
+
+.middle-content {
+    margin-bottom: 20px;
+}
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+}
+.bottom-content .text-container {
+    padding-right: 4%;
+}
+.bottom-content .text-container:last-child {
+    padding-right: 0;
 }
 /* footer section style */
 footer {
