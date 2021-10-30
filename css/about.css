@@ -99,3 +99,30 @@ nav{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+.button a{
+    text-decoration: none;
+    color: inherit;
+}
+/* footer section style */
+footer {
+    width: 100%;
+    background: black;
+}
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
