@@ -42,12 +42,10 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
@@ -55,13 +53,11 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
-
 p {
     line-height: 1.4;
 }
@@ -69,7 +65,7 @@ p {
 nav{
     display: flex;
     justify-content: space-evenly;
-    margin: 0 2% 20px;
+    
 }
 .links{
     width: 50%;
@@ -86,9 +82,8 @@ nav{
     display: flex;
     justify-content: space-evenly;
     margin: 0 2% 20px;
-   
 }
-/* middle section styles */
+/* about section styles */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,71 +96,54 @@ nav{
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+}
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+.info-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+}
+.info{
+
+    text-align: center;
+    flex-direction: column;
+}
+button{
+    background-color: white;
+    color: black;
+    border: black solid 1px;
+    padding: 5px 10px;
+}
+.button a{
+    text-decoration: none;
+    color: inherit;  
 }
 
+.middle-content {
+    margin-bottom: 20px;
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background:teal;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-/* box colors */
-.one{
-    background-color:teal;
-}
-.two{
-    background-color:gold;
-}
-.three{
-    background-color:cadetblue;
-}
-.four{
-    background-color:coral;
-}
-.five{
-    background-color:crimson;
-}
-.six{
-    background-color:forestgreen;
-}
-.seven{
-    background-color:darkorchid;
-}
-.eight{
-    background-color:hotpink;
-}
-.nine{
-    background-color:indigo;
-}
-.ten{
-    background-color:dodgerblue;
-}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    border-bottom: 1px dashed black;
 }
 .bottom-content .text-container {
     padding-right: 4%;
@@ -173,7 +151,7 @@ nav{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-/* footer */
+/* footer section style */
 footer {
     width: 100%;
     background: black;
@@ -187,6 +165,6 @@ footer nav {
     font-size: 14px;
 }
 footer nav a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
